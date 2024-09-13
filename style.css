@@ -1,0 +1,90 @@
+body {
+    background: #2e2c24;
+    font-family: monospace;
+    color: #6A5706;
+}
+
+div {
+    background: #CEA80B;
+    width: 480px;
+    padding-bottom: 10px;
+    margin: 50px;
+    border: 4px double #000;
+    border-radius: 10px;
+}
+
+hr {
+    width: 85%;
+    height: 1px;
+    background-color: #6A5706;
+    border: none;    
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+input[type="text"] {
+    background: #D1C193;
+    font-family: monospace;
+    padding: 5px;
+    border: 1px solid #6A5706;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+input[type="text"]:focus {
+    font-family: monospace;
+    color: #6A5706;
+    border-color: #6A5706;
+    outline: none;
+    box-shadow: 0 0 5px #6A5706;
+}
+
+input[type="submit"] {
+    font-family: monospace;
+    padding: 5px;
+    background-color: #6A5706;
+    color: #D1C193;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+}
+
+input[type="submit"]:hover {
+    background-color: #2e2c24;
+    box-shadow: 0 0 5px #6A5706;
+}
+
+#content {
+    text-align: center;
+    margin-top: 50px;
+}
+
+ul#friendList1{
+    list-style-type: decimal;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+ul#friendList2{
+    list-style-type: none;
+    padding-left: 0;
+}
+
+
+a, a:visited {
+    color: #6A5706;
+    font-family: monospace;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#2e2c24;
+}
